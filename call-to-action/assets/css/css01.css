@@ -4,19 +4,13 @@
     padding: 0;
     font-family: Montserrat;
 }
-
 div{
-    border: 2px solid black;
-    background-color: #121212;
     width: 1110px;
     height: 349px;
-    border-radius: 12px;
 }
-div img{
-    width: 368.5px;
-    height: 313px;
-    margin-left: 680px;
-    margin-top: -235px;
+.text{
+ padding-top: 83px;
+    margin-left: 96px;
 }
 div h3{
     width: 532px;
@@ -27,13 +21,10 @@ div h3{
     font-size: 40px;
     line-height: 48px;
     letter-spacing: -0.4px;
-    margin-top: 83px;
-    margin-left: 96px;
+   
 }
 
 button{
-    margin-top: 24px;
-    margin-left: 96px;
     border: none;
     font-weight: 600;
     font-size: 23px;
@@ -44,4 +35,5 @@ button{
     width: 280px;
     height: 64px;
     background-color: #DC3545;
-}
+    margin-top: 24px;
+} 
