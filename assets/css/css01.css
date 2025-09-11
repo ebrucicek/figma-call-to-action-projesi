@@ -1,18 +1,29 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Montserrat;
 }
-div{
+
+body {
+    background-color: #121212;
+}
+
+.container{
     width: 1110px;
-    height: 349px;
 }
-.text{
- padding-top: 83px;
-    margin-left: 96px;
+
+.call-to-action{
+    float: right;
+    padding-top: 36px;
 }
-div h3{
+
+.content {
+    padding-top: 83px;
+    padding-left: 96px;
+}
+
+.content h3 {
     width: 532px;
     height: 96px;
     font-weight: bold;
@@ -21,19 +32,25 @@ div h3{
     font-size: 40px;
     line-height: 48px;
     letter-spacing: -0.4px;
-   
+    margin-bottom: 24px;
 }
 
-button{
-    border: none;
+.content a{
     font-weight: 600;
     font-size: 23px;
     line-height: 32px;
     color: #ffffff;
     padding: 16px 72px;
     border-radius: 3px;
-    width: 280px;
-    height: 64px;
     background-color: #DC3545;
-    margin-top: 24px;
+    display: inline-block;
+    text-decoration: none;
 } 
+
+/* div{
+    width: 1110px;
+    height: 349px;
+}
+
+
+ */
